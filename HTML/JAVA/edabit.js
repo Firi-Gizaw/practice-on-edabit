@@ -51,3 +51,20 @@ function calcAge(age) {
 }
 	var days=calcAge(65);
 	console.log(days);
+/* 4)Return the Remainder from Two Numbers
+There is a single operator in JavaScript, capable of providing the remainder of a division operation. Two numbers are passed as parameters. The first parameter divided by the second parameter will have a remainder, possibly zero. Return that value.
+
+Examples
+remainder(1, 3) ➞ 1
+
+remainder(3, 4) ➞ 3  */
+    function remainder(x, y) {
+	if(isNaN(x)||isNaN(y)){
+		return "pls enter num";
+	}
+	
+	return x%y;
+	
+}
+var z= remainder(10,3);
+console.log(z);
