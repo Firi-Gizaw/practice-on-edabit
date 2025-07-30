@@ -68,3 +68,18 @@ remainder(3, 4) ➞ 3  */
 }
 var z= remainder(10,3);
 console.log(z);
+
+/*5) Return Something to Me!
+Write a function that returns the string "something" joined with a space " " and the given argument a.
+
+Examples
+giveMeSomething("is better than nothing") ➞ "something is better than nothing"
+
+giveMeSomething("Bob Jane") ➞ "something Bob Jane*/
+function giveMeSomething(a) {
+	var x="something" + " "+a;
+	return x;
+	
+}
+var y=giveMeSomething("is better than nothing");
+console.log(y);
