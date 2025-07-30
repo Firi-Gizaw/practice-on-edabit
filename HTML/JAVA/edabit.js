@@ -90,9 +90,23 @@ Examples
 findPerimeter(6, 7) ➞ 26
 */
 function findPerimeter(l, w) {
-	var x=2l + 2w;
+	var x=2*l + 2*w;
 	return x;
 	
 }
 var result=findPerimeter(6,7);
 console.log(result);
+/* 7)Basketball Points
+You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, find the final points for the team and return that value.
+
+
+Examples
+points(1, 1) ➞ 5
+
+points(7, 5) ➞ 29*/
+function points(twoPointers, threePointers) {
+	return 2*twoPointers + 3*threePointers;
+	
+}
+var R=points(7,5);
+console.log(R);
