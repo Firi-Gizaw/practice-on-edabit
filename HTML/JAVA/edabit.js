@@ -83,3 +83,16 @@ function giveMeSomething(a) {
 }
 var y=giveMeSomething("is better than nothing");
 console.log(y);
+/* 6)Find the Perimeter of a Rectangle
+Create a function that takes length and width and finds the perimeter of a rectangle.
+
+Examples
+findPerimeter(6, 7) ➞ 26
+*/
+function findPerimeter(l, w) {
+	var x=2l + 2w;
+	return x;
+	
+}
+var result=findPerimeter(6,7);
+console.log(result);
