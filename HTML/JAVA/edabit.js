@@ -153,3 +153,41 @@ function howManySeconds(h) {
 }
 var sec=howManySeconds(2);
 console.log(sec);
+/* 11)Buggy Code (Part 7)
+Mubashir wants to swap two given numbers!
+
+It is not returning the right values. Can you help him fix it?
+
+a = 100
+b = 200
+a, b = swap(a, b)
+print(a, b) // Should print out "200, 100", but the function prints out "100, 100"
+Examples
+swap(100, 200) ➞ [200, 100]*/
+function swap(a, b) {
+	var x=a;
+	var y=b;
+	return y+ "," + x;
+	
+}
+/*
+12)Buggy Code (Part 7)
+Mubashir wants to swap two given numbers!
+
+It is not returning the right values. Can you help him fix it?
+
+a = 100
+b = 200
+a, b = swap(a, b)
+print(a, b) // Should print out "200, 100", but the function prints out "100, 100"
+Examples
+swap(100, 200) ➞ [200, 100]*/
+function swap(a,b) {
+	t=a;
+	a=b;
+	b=t;
+	return[a,b]
+	
+}
+var z=swap(1,2);
+console.log(z);
