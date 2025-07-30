@@ -110,3 +110,16 @@ function points(twoPointers, threePointers) {
 }
 var R=points(7,5);
 console.log(R);
+/* 8)Area of a Triangle
+Write a function that takes the base and height of a triangle and return its area.
+
+Examples
+triArea(3, 2) ➞ 3
+
+triArea(7, 4) ➞ 14*/
+function triArea(b, h) {
+	return 1/2*b*h;
+	
+}
+var area=triArea(7,4);
+console.log(area);
