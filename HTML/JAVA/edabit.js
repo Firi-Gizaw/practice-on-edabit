@@ -11,7 +11,7 @@ var x=addition(-7,9);
 console.log(x);
 
 /*
-Create a function that takes an array containing only numbers and return the first element.
+2)Create a function that takes an array containing only numbers and return the first element.
 
 Examples
 getFirstValue([1, 2, 3]) ➞ 1
@@ -28,3 +28,26 @@ function g(x){
 }
 var y=g([1,-9,3]);
 console.log(y);
+
+/* 3)Convert Age to Days
+Create a function that takes the age in years and returns the age in days.
+
+Examples
+calcAge(65) ➞ 23725*/
+function calcAge(age) {
+	if(isNaN(age)){
+		return "pls enter num";
+	}
+	else if(age<0){
+		return "enter positive num";
+	}
+	
+		else{
+			var AGE=age*365;
+			return AGE;
+			// or wecan say return age*365;
+		}
+	
+}
+	var days=calcAge(65);
+	console.log(days);
