@@ -142,3 +142,14 @@ function sumPolygon(n) {
 }
 var r=sumPolygon(6);
 console.log(r);
+/* 10)Convert Hours into Seconds
+Write a function that converts hours into seconds.
+
+Examples
+howManySeconds(2) ➞ 7200*/
+function howManySeconds(h) {
+	return h*3600;
+	
+}
+var sec=howManySeconds(2);
+console.log(sec);
